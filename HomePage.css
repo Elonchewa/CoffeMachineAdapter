@@ -8,5 +8,11 @@ body {
   }
 
   button {
-    color: #071e22;
+    background-color: #071e22;
+    color: #eeebd0
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
   }
