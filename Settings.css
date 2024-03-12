@@ -1,0 +1,56 @@
+:root {
+    --dhcp: #eeebd0;
+}
+h1 {
+    color: #a5a392;
+    border-color: var(--dhcp);
+    border: solid;
+    border-width: 2.5px;
+    display: inline-block;
+    border-radius: 1.5vh;
+    padding: 5px;
+}
+body {
+    background-color: #6f4e37;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+button {
+    background-color: #6c8185;
+    color: #a5a392;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 5px;
+    
+}
+label {
+    color: var(--dhcp);
+}
+input {
+    background-color: #071e22;
+    color: #a5a392;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    margin: auto;
+    ;
+}
+body {
+  width: 100px;
+  height: 100px;
+  background-color: #6f4e37;
+  animation-name: example;
+  animation-duration: 1s;
+  padding: 5vh;
+}
+@keyframes example {
+  from {background-color: #6f4e37;}
+  to {background-color: #eeebd0;}
+}
+/*make the backround fade after an action is finished!!!!!!!!!!!
