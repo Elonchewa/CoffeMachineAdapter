@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COFFE HOME</title>
     <link rel="stylesheet" href="HomePage.css">
+    <script src="HomePage.js"> </script>
 </head>
 <body>
 <h1> Welcome, User</h1>
 <div class="dhdcontainer">
 <button type = 'Button'  id='StartBrew' onclick="BrewAlert()"> Start Brew </button>
-
-<script src="HomePage.js"> </script>
+</div>
+<img src="Images/setting.jpg" alt="home button">
+<h1>SETTINGS</h1>
+<div class="dhdcontainer">
+<form action="/action_page.php">
+    <label for="appt">Select a time:</label>
+    <input type="time" id="appt" name="appt">
+    <input type="submit">
+  </form>
+</div>
 </body>
 </html>

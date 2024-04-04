@@ -49,3 +49,7 @@ img {
   flex-direction: column;
   border-radius: 50vh;
 }
+input {
+  background-color: #071e22;
+  color: #a5a392;
+}
