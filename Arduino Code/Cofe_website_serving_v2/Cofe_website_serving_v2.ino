@@ -8,8 +8,8 @@
 Servo CofeServo; //creates servo object
 AsyncWebServer server(80); //creates server object
 
-char* ssid = "Raya_fam";
-char* psswrd = "Mbye$1234";
+char* ssid = "Network_Name";
+char* psswrd = "Password";
 
 
 
