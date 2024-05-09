@@ -10,7 +10,7 @@ AsyncWebServer server(80); //creates server object
 
 char* ssid = "Network_Name";
 char* psswrd = "Password";
-
+int brewTime = 180000;
 
 
 void setup() {
@@ -19,7 +19,7 @@ void setup() {
 
   CofeServo.attach(servoChannel); 
   CofeServo.write(0); //initializes the servos position to 0 degrees
-  int brewTime = 180000;
+  
 
   //connection setup
   bool connection = false;
